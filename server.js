@@ -2,7 +2,7 @@ var express = require('express');
 
 // create the app
 var app = express();
-const PORT = process.env.PORT || 3000;// heroku give us the port or the 300 port if not specified
+const PORT = process.env.PORT || 3000;// heroku gives us the port or the 300 port if not specified
 
 // redirect if on https
 app.use(function(req, res, next){
