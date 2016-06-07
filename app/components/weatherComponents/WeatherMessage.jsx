@@ -14,7 +14,7 @@ var WeatherMessage = ({temp, location}) => {
   //var {temp, location} = props;
   //console.log("this.props: ", props);
   return (
-    <h5>Its {temp} in {location}.</h5>
+    <h3 className="text-center">Its {temp} in {location}.</h3>
   )
 }
 
