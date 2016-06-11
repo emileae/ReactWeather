@@ -12,7 +12,7 @@ $(document).foundation();
 //1dd091e997e6d0d400cf8cbb4dfdd7de   <-- openweathermap api key
 
 // load custom styles
-require('style!css!applicationStyles')
+require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
   <Router history={hashHistory}>
